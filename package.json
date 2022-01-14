@@ -1,0 +1,12 @@
+{
+  "name": "@woubuc/app",
+  "private": true,
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pnpm run -r --parallel dev",
+    "build": "pnpm run -r --stream build",
+    "preinstall": "npx -y only-allow pnpm"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext"],
+
+    "esModuleInterop": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "error",
+
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSourceMap": true,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "importHelpers": true,
+
+    "strict": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noImplicitOverride": true,
+
+    "paths": {
+      "@woubuc/*": ["packages/*/src/index.ts"]
+    }
+  }
+}

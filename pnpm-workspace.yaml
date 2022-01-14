@@ -1,0 +1,4 @@
+packages:
+  - 'packages/*'
+
+prefer-workspace-packages: true
